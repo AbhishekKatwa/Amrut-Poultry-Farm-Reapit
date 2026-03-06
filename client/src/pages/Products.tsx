@@ -93,7 +93,7 @@ export default function Products() {
                       <div className="flex flex-col">
                         <span className="text-sm text-muted-foreground">Price</span>
                         <span className="text-3xl font-black text-primary">
-                          ${Number(product.price).toFixed(2)}
+                          ₹{Number(product.price).toFixed(2)}
                         </span>
                       </div>
                       

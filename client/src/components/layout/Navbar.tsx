@@ -41,7 +41,7 @@ export function Navbar() {
               <Egg className="w-6 h-6" />
             </div>
             <span className="font-bold text-xl md:text-2xl text-foreground tracking-tight">
-              Amrut Farm
+              Amrut Poultry Farm
             </span>
           </Link>
 
@@ -69,12 +69,7 @@ export function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex">
-            <Link 
-              href="/products"
-              className="px-6 py-2.5 rounded-full font-medium bg-primary text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-xl hover:bg-primary/90 hover:-translate-y-0.5 transition-all duration-200"
-            >
-              Order Now
-            </Link>
+            
           </div>
 
           {/* Mobile Menu Toggle */}

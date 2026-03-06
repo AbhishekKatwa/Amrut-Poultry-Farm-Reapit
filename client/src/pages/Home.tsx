@@ -56,7 +56,7 @@ export default function Home() {
               <span className="text-primary-foreground drop-shadow-md">Straight to You.</span>
             </h1>
             <p className="text-lg md:text-xl text-white/90 mb-10 leading-relaxed text-balance">
-              Experience the premium quality of organically raised poultry and eggs from Amrut Farm. Ethical farming for a healthier community.
+              Experience the premium quality of organically raised poultry and eggs from Amrut Poultry Farm. Ethical farming for a healthier community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -156,7 +156,7 @@ export default function Home() {
                     <p className="text-muted-foreground line-clamp-2 mb-4 text-sm">{product.description}</p>
                     <div className="flex items-center justify-between mt-auto">
                       <span className="text-2xl font-bold text-primary">
-                        ${Number(product.price).toFixed(2)}
+                       ₹{Number(product.price).toFixed(2)}
                       </span>
                       <Link 
                         href={`/contact`}

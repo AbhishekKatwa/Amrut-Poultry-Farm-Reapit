@@ -11,25 +11,11 @@ async function seedDatabase() {
   if (existingProducts.length === 0) {
     await db.insert(products).values([
       {
-        name: "Farm Fresh Brown Eggs",
-        description: "Nutritious and delicious brown eggs straight from our free-range hens.",
-        category: "Eggs",
-        price: "4.99",
-        imageUrl: "https://images.unsplash.com/photo-1598965675045-45c5e7207d9e?auto=format&fit=crop&q=80&w=800",
-      },
-      {
         name: "Premium White Eggs",
         description: "High-quality white eggs packed with protein for your daily breakfast.",
         category: "Eggs",
-        price: "3.99",
-        imageUrl: "https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&q=80&w=800",
-      },
-      {
-        name: "Organic Chicken Feed",
-        description: "Specially formulated organic feed for healthy and productive layers.",
-        category: "Feed",
-        price: "24.99",
-        imageUrl: "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&q=80&w=800",
+        price: "",
+        imageUrl: "https://plus.unsplash.com/premium_photo-1671022581639-39edb4a48c6d?auto=format&fit=crop&q=80&w=800",
       }
     ]);
   }

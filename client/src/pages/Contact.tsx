@@ -86,9 +86,9 @@ export default function Contact() {
                         Farm Location
                       </h4>
                       <p className="text-muted-foreground leading-relaxed">
-                        Near College Road, Bagalkot,
+                       Guledagudd, Shirur, Bagalkot
                         <br />
-                        Karnataka, India 587101
+                        Karnataka, India 587203
                       </p>
                     </div>
                   </div>

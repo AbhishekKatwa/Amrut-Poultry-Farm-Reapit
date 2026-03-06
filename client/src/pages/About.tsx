@@ -23,7 +23,7 @@ export default function About() {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Our Story</h1>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed text-balance">
-              Rooted in tradition and driven by a passion for quality, Amrut Farm has been providing exceptional agricultural products to families and businesses since 1993.
+              Rooted in tradition and driven by a passion for quality, Amrut Poultry Farm has been providing exceptional agricultural products to families and businesses since 1995.
             </p>
           </motion.div>
         </div>
@@ -40,10 +40,21 @@ export default function About() {
               transition={{ duration: 0.6 }}
             >
               {/* farmer working fresh produce eggs */}
-              <div className="rounded-3xl overflow-hidden shadow-2xl relative">
+              {/* <div className="rounded-3xl overflow-hidden shadow-2xl relative">
                 <img 
                   src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1600&auto=format&fit=crop" 
                   alt="Farmer carrying produce"
+                  className="w-full h-auto aspect-[4/5] object-cover"
+                />
+                <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-secondary rounded-full -z-10 blur-2xl opacity-50" />
+              </div> */}
+              <div className="rounded-3xl overflow-hidden shadow-2xl relative">
+                <video
+                  src="/videos/eggs.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="w-full h-auto aspect-[4/5] object-cover"
                 />
                 <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-secondary rounded-full -z-10 blur-2xl opacity-50" />
